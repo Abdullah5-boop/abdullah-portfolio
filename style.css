@@ -1,8 +1,11 @@
 body{
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
  background-color:rgb(253, 253, 240);
- margin-top: 60px;
+ margin-top: 20px;
  margin-left: 30px;
- padding: 20px;
+ padding: 10px;
  
 }
 section{
@@ -36,4 +39,8 @@ h1{
     border-radius: 20px;
     color: white;
     font-weight: 700px;
+}
+.section1{
+    
+
 }
