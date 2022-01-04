@@ -1,16 +1,19 @@
 body{
-    background-image: url(./background.png);
-    background-repeat: no-repeat;
-    background-size: 500px;
+ background-image: url(./background.png);
+ background-repeat: no-repeat;
+ background-size: 500px;
  background-color:rgb(253, 253, 240);
  margin-top: 20px;
  margin-left: 30px;
+ margin-right:20px;
  padding: 10px;
  
 }
 section{
-    
+
+    margin-bottom: 20px;
 }
+
 p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: justify;
@@ -28,8 +31,8 @@ h1{
     width: 50%;
 }
 .personal-info-div img{
-    width: 40%;
-    margin-left: 1200px;
+    width: 35%;
+    margin-left: 1300px;
     margin-top: -400px;
 }
 .visitbtn{
@@ -40,7 +43,26 @@ h1{
     color: white;
     font-weight: 700px;
 }
-.section1{
+.section2{
+    display: flex;
+}
+.div2 img
+{
     
+    width: 60%;
+    margin-left: 40px;
+    padding: 10%;
+}
+.webdevoloper{
 
+    margin-left: 150px;
+    
+}
+
+.downloadbtn{
+text-decoration: none;
+background-image:linear-gradient(rgb(98, 0, 209),rgb(71, 2, 233)) ; 
+padding: 10px 40px;
+border-radius:20px ;
+color: whitesmoke;
 }
