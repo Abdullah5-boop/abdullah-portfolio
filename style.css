@@ -48,6 +48,9 @@ h1{
 .section2{
     display: flex;
 }
+div{
+    padding: 30px;
+}
 .div2 img
 {
     
@@ -58,7 +61,12 @@ h1{
 .webdevoloper{
 
     margin-left: 150px;
-    
+    background-image: url(./side1.png);
+}
+.side1{
+    background-repeat: no-repeat;
+    background-position:800px 100px;
+
 }
 
 .downloadbtn{
@@ -81,17 +89,36 @@ color: whitesmoke;
     width: 650px;
     text-align: justify;
     margin-left: 90px;
-  
+    border-left: 7px solid;
+    border-image:linear-gradient(red ,rgb(255, 236, 67)) ;
+    border-image-slice:1;
+    border-radius:10px ;
 }
 .prodeveloper
 {
-    
     width: 650px;
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(111, 0, 255) ,blue) ;
+    border-image-slice:1;
+    border-radius:10px ;
 
 }
 .shadow{
     padding: 40px;
-    box-shadow: 10px 10px 10px 10px rgb(54, 52, 52);
+    border-radius:10px ;
+    box-shadow: 10px 10px 10px 6px rgb(54, 52, 52);
     
+    
+}
+.side1{
+    background-image: url(./side1.png);
+}
+footer p{
+    text-align: center;
+}
+.section3{
+    background-image: url(./bus.png);
+    background-repeat: no-repeat;
+    background-position: 0px 100px;
 
 }
